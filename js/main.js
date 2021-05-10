@@ -1,23 +1,23 @@
 //////////////////////////////////////////////////////////// Завдання 1 ////////////////////////////////////////////////////////////
 
-// function getRandomInt(min, max) {
-//     min = Math.ceil(min);
-//     max = Math.floor(max);
-//     return Math.floor(Math.random() * (max - min)) + min;
-// }
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min;
+}
 
-// let min = 0,
-//     max = 100;
+let min = 0,
+    max = 100;
 
-// let $rundomNamber = document.getElementById('rundomNamber'),
-//     $button = document.getElementById('button');
+let $rundomNamber = document.getElementById('rundomNamber'),
+    $button = document.getElementById('button');
 
-// for (;;) {
-//     $button.addEventListener('click', function() {
-//         $rundomNamber.textContent = getRandomInt(min, max);
-//     });
-//     break;
-// }
+for (;;) {
+    $button.addEventListener('click', function() {
+        $rundomNamber.textContent = getRandomInt(min, max);
+    });
+    break;
+}
 
 //////////////////////////////////////////////////////////// Завдання 2 ////////////////////////////////////////////////////////////
 
@@ -27,10 +27,6 @@
 // $button.addEventListener('click', function() {
 //     $description.classList.toggle('none');
 // });
-
-//////////////////////////////////////////////////////////// Завдання 3 ////////////////////////////////////////////////////////////
-
-
 
 //////////////////////////////////////////////////////////// Завдання 4 ////////////////////////////////////////////////////////////
 
